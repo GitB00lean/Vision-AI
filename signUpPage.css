@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    background-image: url(IMAGE/signUpBg.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5vh;
+}
+h1{
+    color: white;
+    font-size: 10vh;
+    padding: 5%;
+    margin-left: 35%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+}
+p{
+    color: white;
+    font-size: x-large;
+    margin: 5px;
+}
+.symbols{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1,.box2,.box3{
+    height: 7vh;
+    width: 7vh;
+    font-size: x-large;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 98%;
+    height: 10%;
+    margin: 5px;
+}
+.sign-in{
+    margin: 5px;
+    width: 100%;
+    height: 8%;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+.password{
+    text-align: right;
+    font-size: large;
+}
+.last{
+    display: flex;
+    color: white;
+}
+.sign-up{
+    color: red;
+}
