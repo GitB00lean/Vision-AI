@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    position: absolute;
+    top: 5vh;
+    left: 40vh;
+    height: 80%;
+    width: 60%;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    color: #65be87;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.subheading{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.image-home{
+    width: 100vh;
+    height: 40vh;
+    background-image: url(images/d0c47170d0ebebfcc76dd277c4193dd8\ \(1\).jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 2px rgb(129, 129, 129) solid;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 25vh;
+}
+.input{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    font-size: large;
+    width: 80%;
+}
+.generate{
+    background-color: gray;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 20%;
+    font-size: large;
+}
+.bottom{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.summarize, .dashboard{
+    font-size: large;
+    height: 25px;
+    width: 100px;
+    border-radius: 10%;
+    border-radius: 50px;
+    box-shadow:  5px 5px 9px #65be87,
+                 -5px -5px 9px #89ffb7;
+    
+}
+.summarize{
+    background-color: white;
+    color: black;
+}
+.dashboard{
+    background-color: black;
+    color: white;
+}
