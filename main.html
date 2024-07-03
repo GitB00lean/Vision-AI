@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Elixpo VI</title>
+<link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+<div class="container">
+  <h1>Elixpo VI</h1>
+  <div class="video-container">
+    <iframe id="video-player" src=""></iframe>
+    <button onclick="showSidebar()">Show Sidebar</button>
+  </div>
+  <div class="sidebar-container">
+    <div class="sidebar-box">
+      <h3>Your Scribble Pad</h3>
+      <textarea id="scribble-pad"></textarea>
+    </div>
+    <div class="sidebar-box">
+      <h3>Transcript Pad</h3>
+      <div id="transcript-pad"></div>
+    </div>
+    <div class="sidebar-box">
+      <h3>Chat with AI</h3>
+      <div id="chat-box"></div>
+    </div>
+  </div>
+</div>
+<script src="JS/main-script.js"></script>
+</body>
+</html>
