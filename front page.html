@@ -3,26 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/frontPage.css">
-    <title>Elixpo VI- Home</title>
+    <title>ElixpoVI - Homepage</title>
+    <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/ElixpoVIhomePage.css">
+    <link rel="stylesheet" type="text/css" href="CSS/ElixpoVIhomePagePattern.css">
+
 </head>
 <body>
-    <div class="container">
-        <h1>Elixpo VI</h1>
-        <div class="subheading">
-            <h3>Generative AI</h3>
-            <h3>Open Source</h3>
-            <h3>Live and Digital</h3>
-        </div>
-        <div class="image-home"></div>
-        <form>
-            <input type="text" placeholder="Enter the URL link here" class="input">
-            <button class="generate">Generate</button>
-        </form>
-        <div class="bottom">
-            <button class="summarize">Summarize</button>
-            <button class="dashboard">Dashboard</button>
-        </div>
+    <div class="ParticleContainer" id="bg">  </div>
+    <div id="wrapper" data-configuration="1" data-roundness="1">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+      </div>
+    <div class="mainContainer" id="container">
+        <div class="logo"><ion-icon  name="newspaper-outline" id="majorIcon"></ion-icon> </div><p class="appName"> Elixpo.vi </p>
+        
+
+          <div class="sitecontent">
+            <!-- <textarea id="auto-resize" placeholder="Enter your text here..."></textarea></div> -->
+            <div class="aiArtCreate"> <span class="aiArtCreateText"> Summarize </span></div>
+            <div class="aiArtDocs"> <span class="aiArtDocsText"> Dashboard </span></div>
+            <div class="mainName"><span class="mainName_name">ELIXPO</span><span class="mainName_ending">VI</span></div>
+            <div class="desc">
+              <span>Generative AI</span>
+              <span>Open Source</span>
+              <span>Real Time</span>
+            </div>
+            <div class="samplePrompt"><ion-icon  name="newspaper-outline" id="iconSearchText"></ion-icon> <div class="searchButton" id="searchButton"><p class="searchButtonText">Summarize</p></div>  <p class="searchText" id="searchText"> www.youtube/watch?v=7a8vv5t  </p></div>
+            <!-- <textarea id="auto-resize" placeholder="Enter your text here..."></textarea></div> -->
+          </div>
+
+          <div class="imageGenerator">
+
+          </div>
     </div>
+
+    <script src="JS/particles.min.js"></script>
+        <script src="JS/particleEffect.js"></script>
+        <script src="JS/particleEffectGenerateButton.js"></script>
+        <script src="JS/pagePattern.js"></script>
 </body>
 </html>
