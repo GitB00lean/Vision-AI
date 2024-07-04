@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signin / Login</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="CSS/sign-up.css">
 </head>
 <body>
@@ -25,18 +27,25 @@
 
       <div class="inputBox"> 
 
-       <input type="password" required> <i>Password</i> 
+        <input type="text" required> <i>Email</i> 
+ 
+       </div> 
 
+
+      <div class="inputBox"> 
+
+       <input type="password" id="password" required> <i>Password</i> 
+       <ion-icon name="eye" id="showPassword"></ion-icon>
       </div> 
       <div class="inputBox"> 
 
-        <input type="password" required> <i>Confirm Password</i> 
- 
+        <input type="password" id="confPassword" required> <i>Confirm Password</i> 
+        <ion-icon name="eye" id="showPassword"></ion-icon>  
        </div>  
 
       </div> 
 
-      <button class="enter">Enter</button>
+      <button class="enter">Register</button>
 
      </div> 
 
@@ -44,7 +53,7 @@
 
    </div> 
 
-  </section> <!-- partial --> 
-
+  </section>
+  <script src="JS/sign-up.js"></script>
 </body>
 </html>
