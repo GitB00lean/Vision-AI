@@ -55,7 +55,7 @@ body
 overflow-x: hidden;
   transition: 0.5s;
   transform-origin: center;
-  opacity: 1; /*change to zero*/
+  opacity: 0; /*change to zero*/
   transform: translateX(-50%) translateY(-50%);
 }
 
