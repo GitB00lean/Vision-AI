@@ -180,3 +180,12 @@ input[type="submit"]:active
     height: calc(20vw - 2px);
   }
 }
+.enter{
+  padding: 10px;
+  background: #0f0;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.35em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
