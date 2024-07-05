@@ -3,25 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTP Verification</title>
+    <title>OTP verification</title>
     <link rel="stylesheet" href="CSS/OTP.css">
 </head>
 <body>
-    <div class="container">
-        <h1>OTP Verification</h1>
-        <h3>Enter the OTP sent to your E-mail ID </h3>
-        <div class="otp-boxes">
-            <input type="number" class="box1">
-            <input type="number" class="box2">
-            <input type="number" class="box3">
-            <input type="number" class="box4">
-            <input type="number" class="box5">
+    <div class="container-1">
+        <h2>OTP verification</h2>
+        <p>Enter your E-mail ID</p>
+        <p>You will get your one time password through E-mail</p>
+        <div class="form-container">
+            <input type="email" name="" id="email-address" placeholder="abc@gmail.com">
         </div>
-        <div class="resend">
-            <p>Resend code in 29 seconds</p>
-            <button class="resend-btn">Resend</button>
-        </div>
-        <button class="submit">Submit</button>
+        <button class="email-submit-btn">Send OTP &#8594</button>
     </div>
+    <div class="container-2">
+        <h2>Enter your one time password</h2>
+        <p>The OTP has been sent to <span id="verify-email"></span></p>
+        <div class="otp-grp">
+            <input type="number" name="" id="">
+            <input type="number" name="" id="">
+            <input type="number" name="" id="">
+            <input type="number" name="" id="">
+        </div>
+        <p>Not your E-mail/ Didn't get the code? <a href="javascript:void(0)">Try Again</a></p>
+        <button class="email-verify-btn">Verify &#8594</button>
+    </div>
+    <div class="container-3">
+        <h2>OTP Verified</h2>
+        <p>Your email has been verified</p>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+        <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1"/>
+        <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 "/>
+        </svg>
+        <p class="success" id="check">Oh Yeah!</p>
+        <p>Thank You! <br> Your E-mail has been verified successfully</p>
+    </div>
+    <script src="JS/OTP.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "LuEhPa1M9clS85AB_",
+      });
+   })();
+</script>
 </body>
 </html>
