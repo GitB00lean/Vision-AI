@@ -324,7 +324,7 @@ input[type="submit"]:active
   transform-origin: center;
   left: 35%;
   font-size: 2.5em;
-  color: #0f0;
+  color: #990;
   margin-bottom: 125px;
   cursor: pointer;
 }
@@ -336,7 +336,7 @@ input[type="submit"]:active
   transform-origin: center;
   left: 55%;
   font-size: 2.5em;
-  color: #0f0;
+  color: #fac;
   margin-bottom: 125px;
   cursor: pointer;
 }
