@@ -1,8 +1,22 @@
 document.getElementById("showPassword").addEventListener("click", function() {
-    var password = document.getElementById("password");
-    if (password.type === "password") {
-        password.type = "text";
-    } else {
-        password.type = "password";
-    }
+   toggleTextType("password", "showPassword");
 })
+
+document.getElementById("showConfirmPassword").addEventListener("click", function() {
+    toggleTextType("confPassword", "showConfirmPassword");
+})
+
+
+function toggleTextType(idOfTheElement, toogleSwitchId) 
+{
+    document.getElementById(toogleSwitchId).addEventListener("click", e => {
+        if (document.getElementById(idOfTheElement).type == "password") 
+        {
+            document.getElementById(idOfTheElement).type = "text";
+        }
+        else
+        {
+            document.getElementById(idOfTheElement).type = "password";
+        }
+    })
+}
