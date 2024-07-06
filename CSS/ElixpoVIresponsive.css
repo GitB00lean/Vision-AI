@@ -1,0 +1,108 @@
+@media only screen and (max-width: 600px) {
+    .logo{
+        position: absolute;
+        top: 6%;
+        left: 2%;
+        height: 20px;
+        width: 20px;
+        background-size: cover;}
+    .appName{
+        position: absolute;
+        top: 3%;
+        left: 6%;
+    }
+    .mainName .mainName_name{
+        position: relative;
+        top: -15%;
+        left: -5%;
+        font-family: "Rubik", sans-serif;
+        font-size: 16vh;
+        font-weight: 700;
+        color: #fff;}
+    .mainName .mainName_ending{
+        position: relative;
+        top: -15%;
+        left: 0%;
+        font-family: "Rubik", sans-serif;
+        font-size: 16vh;
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(135deg, #e6e6e6 0%, #c9c9c9 20%, #d5d5d5 30%, #b3b3b3 50%, #d5d5d5 70%, #c9c9c9 80%, #e6e6e6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow:
+            1px 1px 2px rgba(0,0,0,0.1),
+            2px 2px 4px rgba(0,0,0,0.1),
+            3px 3px 6px rgba(0,0,0,0.1),
+            4px 4px 8px rgba(0,0,0,0.1),
+            5px 5px 10px rgba(0,0,0,0.1);}
+        .desc{
+            position: absolute;
+            top: 35%;
+            left: 15%;
+            width: 20%;
+            background: transparent;
+            display: flex;}
+        .searchText{
+              position: absolute;
+              top: 20%;
+              left: 40%;
+              font-size: 70%;
+              float: right;
+              transform: translateX(-50%) translateY(-50%);
+              color: rgb(126, 126, 126);
+              letter-spacing: 0px;
+              font-family: 'Source Code Pro', monospace;
+              font-weight: 700;
+            }
+            .searchButton{
+              position: absolute;
+              width: 25%;
+              height: 45px;
+              border-radius: 25px;
+              transform: translateY(-50%);
+              top: 50%;
+              left: 74%;
+              border:  1px solid #4e4e4e;
+              background: #272727;
+              font-family: 'Source Code Pro', monospace;
+              overflow: hidden;
+              cursor: pointer;
+              z-index: 100;}
+            .searchButtonText{
+                position: absolute;
+                font-size: 80%;
+                top: 2%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                color: #fff;
+                text-shadow: 0 0 5px #fff;
+                letter-spacing: 0px;
+                font-family: 'Source Code Pro', monospace;
+                font-weight: 700;}
+            .aiArtCreate{
+                position: absolute;
+                top: 80%;
+                width: 160px;
+                height: 60px;
+                background: #fff;
+                border-radius: 15px;
+                left: 30%;
+                transform: translateX(-50%);
+                overflow: hidden; /* Ensure the inner element doesn't overflow */
+                cursor: pointer;
+                display: flex;}
+            .aiArtDocs {
+                position: absolute;
+                top: 80%;
+                width: 160px;
+                height: 60px;
+                background: transparent;
+                border: 2px solid #a079e9;
+                border-radius: 15px;
+                left: 70%;
+                transform: translateX(-50%);
+                overflow: hidden; /* Ensure the inner element doesn't overflow */
+                justify-content: center;
+                cursor: pointer;}
+}
