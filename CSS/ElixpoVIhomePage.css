@@ -38,9 +38,9 @@ body
     margin-left: 10px;
     font-size: 20px;
 }
-
-
-
+a{
+  text-decoration: none;
+}
 .mainContainer
 {
   position: absolute;
